@@ -32,5 +32,7 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
+  const ul = document.getElementsByClassName('employee-list')[0]
+  const clearButton = document.getElementsByTagName('a')[0]
 
 }
