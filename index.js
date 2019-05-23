@@ -22,9 +22,11 @@ function addNewElementAsLi() {
 
 function addNewLiOnClick() {
   const submit = document.getElementsByTagName("input")[1]
+  const input = document.getElementsByTagName("input")[0]
 
   submit.addEventListener('click', function(event){
-
+    addNewElementAsLi();
+    input.value = ""
   })
 
 }
