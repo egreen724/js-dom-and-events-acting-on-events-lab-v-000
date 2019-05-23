@@ -25,7 +25,6 @@ function addNewLiOnClick() {
 
   // submit.addEventListener('click', function(event) {
 
-  }
 }
 
 function clearEmployeeListOnLinkClick() {
