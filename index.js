@@ -21,7 +21,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  // const submit = document.getElementsByTagName("input")[1]
+  const submit = document.getElementsByTagName("input")[1]
 
   // submit.addEventListener('click', function(event) {
 
