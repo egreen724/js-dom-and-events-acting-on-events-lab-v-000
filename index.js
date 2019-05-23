@@ -9,10 +9,6 @@ preventRefreshOnSubmit()
 function retrieveEmployeeInformation() {
   const inputs = document.getElementsByTagName("input")
   return inputs[0].value
-
-  // inputs[1].addEventListener('click', function(event) {
-  //   return inputs[0].value
-  // })
 }
 
 function addNewElementAsLi() {
