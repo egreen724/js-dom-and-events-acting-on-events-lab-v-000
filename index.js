@@ -35,4 +35,7 @@ function clearEmployeeListOnLinkClick() {
   const ul = document.getElementsByClassName('employee-list')[0]
   const clearButton = document.getElementsByTagName('a')[0]
 
+  clearButton.addEventListener('click', function(event){
+    ul.empty();
+  })
 }
